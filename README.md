@@ -24,13 +24,14 @@
 # install required packages
 pip install -r requirements.txt
 
-# Run a simple minimal example here
+```
+
+Run a simple minimal example here
 editting or adding your preprocessing code to the folder `preprocessing`
 
-# example running code in the folder `runner`
+example running code in the folder `runner`
 you may want to use multicore training on HTCondor `runner/htcondor`
 
-```
 
 
 ## Citation
