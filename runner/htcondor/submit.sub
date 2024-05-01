@@ -1,0 +1,9 @@
+universe              = vanilla
+executable            = ../flowbdt_condor/train01_2.sh
+arguments             = $(ClusterId) $(ProcId)
+output                = output/$(ClusterId).$(ProcId).out
+error                 = error/$(ClusterId).$(ProcId).err
+log                   = log/$(ClusterId).log
+RequestCpus           = 8
++MaxRuntime           = 24*60*60
+queue
